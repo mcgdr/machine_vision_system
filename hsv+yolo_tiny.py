@@ -31,7 +31,7 @@ def make_color_class(pred_cls):
 def resize(image, size):
     image = F.interpolate(image.unsqueeze(0), size=size, mode="nearest").squeeze(0)
     return image
-
+d
 def changeBGR2RGB(img):
     b = img[:, :, 0].copy()
     g = img[:, :, 1].copy()
