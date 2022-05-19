@@ -1,3 +1,15 @@
+############################################################################################################################################
+!Readme!
+
+This code was written for the "Development of a low-cost machine vision system to recognize and flip the persimmons using deep learning".
+The machine vision system is used to recognize and flip the persimmon with a real-time recognition algorithm,
+which can be employed in the real persimmon process industry.
+Also, this code modifies YOLOv3-tiny using the HSV color space to run a deep learning algorithm in real-time on the NVIDIA Jetson Nano.
+It is performed in Python 3.6.5 using PyTorch 1.6.0 and CUDA 10.2.
+If you have any help or questions, please send an e-mail to mcgdr@ynu.ac.kr.
+############################################################################################################################################
+
+
 import cv2
 import numpy as np
 import torch
